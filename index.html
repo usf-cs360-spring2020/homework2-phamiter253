@@ -39,24 +39,15 @@
           <!-- TODO: Change page title -->
           Analyzing Mobility Report Cards by College Tier and Income Distributions with Tableau and D3
         </h1>
-        <p class="subtitle">
-          <!-- TODO: Change page subtitle -->
-          Data Information
-        </p>
-
-        <p>This would be an excellent place to describe what this page is for, what to find in different sections, describe any motivation or theme behind your visualizations, and so on.</p>
-
-        <p>You should not use this template unless you intend to customize it. Make it your own. Keep in mind this simple template is over 300 lines! You can see other examples of websites using Bulma at their showcase: <a href="https://bulma.io/expo/">bulma.io/expo/</a>.</p>
-
+          
         <h2 id="data">Data</h2>
 
-        <p>Include some detailed information about the dataset here. You should <a href="#">add a link</a> to the original dataset. You might also want to quote the license:</p>
+        <p> The Mobility Report Cards: The Role of Colleges in Intergenerational Mobility documents administrative data covering each college in the United States for over 30 million college students from 1999-2013. These visualization specificly utilize Baseline Cross-Sectional Estimates by College table, which reports estimates of parents' and childrens' income distributions by college. <a href="#">add a link</a> to the original dataset. You might also want to quote the license:</p>
 
         <blockquote>
           <p>
-            "This data is made available under the Public Domain Dedication and License v1.0 whose full text can be found at: <a href="http://www.opendatacommons.org/licenses/pddl/1.0/">www.opendatacommons.org/licenses/pddl/1.0/</a>"
+            "This data is publicly available and can be used by other researchers and practitioners to analyze social mobility and a variety of other outcomes. This data can be found at: <a href="https://opportunityinsights.org/data/">https://opportunityinsights.org/data/</a>"
           </p>
-          <cite>Put a citation here, possibly link to the dataset license information directly.</cite>
         </blockquote>
 
         <p>In addition to including a link to the source and license, you should describe the data. You might want a list of some sort to enumerate the different types of columns:</p>
@@ -98,7 +89,7 @@
 
         <h4>Instructions</h4>
 
-        <p>The graph visualizes the correlation of the range of income distribution and the attendence of various college tiers. The data may be very clustered but by uing the interactive tool on the embedded Tableau graph one can see certain trends. The legend is based on fourteen different types of college tier names. </p>
+        <p>The graph visualizes the correlation of the range of income distribution and the attendance of various college tiers. The data may be very clustered but by uing the interactive tool on the embedded Tableau graph one can see certain trends. The x and y axises graph the probability of the childrens' possible income quintile based on the parents' income quintile and the scatterplots are organized by college tier names. </p>
         <span class="heading">Acknowledgements</span>
 
         <p>
@@ -106,58 +97,11 @@
           <a href="#">Link to StackOverflow snippet</a>
         </p>
 
-        <p class="is-6">
-          <em>Thanks to Person Name for their suggestion to do something with the visualization.</em>
-        </p>
-
         <h2 id="grade">Grade</h2>
+        
+        <h3>A-Level Functionality</h3>
+        <p>Prototyped a scatterplot matrix in Tableau. D3 implemntation in progress.</p>
 
-        <!-- TODO: Remove custom style if no longer needed -->
-        <style>
-          table.grades tbody tr td:nth-child(1),
-          table.grades tbody tr td:nth-child(2) {
-            text-align: center;
-          }
-        </style>
-
-        <!-- TODO: Change or remove table -->
-        <!-- https://bulma.io/documentation/elements/table/ -->
-        <table class="table is-hoverable is-bordered grades">
-          <thead>
-            <tr>
-              <th>Letter</th>
-              <th>Done?</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>D</td>
-              <td><i class="has-text-success fas fa-check-circle"></i></td>
-              <td>Discussion of how this grade level was satisfied. Exactly how this section should look will depend on the assignment in question. There is no requirement for formatting in this way. This is just an example of what a table element might look like for this informaiton.</td>
-            </tr>
-
-            <tr>
-              <td>C</td>
-              <td><i class="has-text-success fas fa-check-circle"></i></td>
-              <td>Discussion of how this grade level was satisfied.</td>
-            </tr>
-
-            <tr>
-              <td>B</td>
-              <td><i class="has-text-warning far fa-check-circle"></i></td>
-              <td>Discussion of how this grade level was satisfied.</td>
-            </tr>
-
-            <tr>
-              <td>A</td>
-              <td><i class="has-text-danger fas fa-times-circle"></i></td>
-              <td>Discussion of how this grade level was not satisfied.</td>
-            </tr>
-          </tbody>
-
-        </table>
     
    <section class="section">
     <div class="container">
